@@ -1,0 +1,16 @@
+filetype off
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+syntax on
+set nu
+set incsearch
+set ignorecase
+set smartcase
+filetype on
+"filetype plugin indent on
+"set autoindent
+set foldmethod=indent
+set foldlevel=99
+"au FileType python set omnifunc=pythoncomplete#Complete
+"let g:SuperTabDefaultCompletionType = "context"
+"set completeopt=menuone,longest,preview
