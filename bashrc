@@ -5,6 +5,6 @@ fi
 
 PS1='\d \t @\e[1;34m\]\w\e[m\] $ '
 export CLICOLOR=1
-export LSCOLORS=ExFxCxDxBxegedabagaced
+export LSCOLORS=ExCxFxDxBxegedabagaced
 # Make bash check its window size after a process completes
 shopt -s checkwinsize
