@@ -1,0 +1,16 @@
+filetype off
+call pathogen#infect()
+filetype on
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompletionType = "context"
+set foldmethod=syntax
+set foldlevel=1
+set completeopt=menuone,longest,preview
+set ts=4
+syntax on
+set nu
+set incsearch
+set ignorecase
+set smartcase
+set smartindent
+set backspace=indent,eol,start
