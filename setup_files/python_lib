@@ -1,0 +1,5 @@
+sudo pip install pymongo
+sudo pip install facebook-sdk
+numpy
+scipy
+pandas
