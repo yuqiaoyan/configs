@@ -10,11 +10,16 @@ set smartcase
 "Taglist settings
 set runtimepath+=$HOME/.vim/plugin
 let Tlist_GainFocus_On_ToggleOpen = 1
-let Tlist_Auto_Open = 1
+"let Tlist_Auto_Open = 1
 let Tlist_Exit_OnlyWindow = 1 "kills taglist window
 
 filetype on
 set ts=4
+
+"fix vim's issue with deleting over line breaks or automatically inserted
+"indentations
+
+set backspace=indent,eol,start
 
 filetype plugin indent on
 set autoindent

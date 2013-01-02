@@ -1,0 +1,15 @@
+Host euler
+	HostName euler.si.umich.edu
+	User yubonnie
+
+Host match650
+	HostName  ec2-107-20-36-41.compute-1.amazonaws.com
+	User yubonnie
+
+Host mongo7
+	HostName ec2-50-19-166-175.compute-1.amazonaws.com
+	User ubuntu
+
+Host caen
+	HostName login.engin.umich.edu
+	User yubonnie
