@@ -3,7 +3,7 @@ Host euler
 	User yubonnie
 
 Host match650
-	HostName  ec2-107-20-36-41.compute-1.amazonaws.com
+	HostName  ec2-54-243-239-223.compute-1.amazonaws.com
 	User yubonnie
 
 Host mongo7
